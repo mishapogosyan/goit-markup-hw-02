@@ -1,0 +1,39 @@
+:root {
+  --maincolor:#2196F3;
+  --mainfont: 'Roboto', sans-serif;
+  --navcolor:#212121;
+
+}
+.logo{
+	color:black;
+	font-size:26px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	line-height: 1.173;
+}
+.logo-web{
+	color:var(--maincolor);
+}
+.contact-header a,.mainnav a{
+	text-decoration: none;
+	font-family: var(--mainfont);
+	font-weight: 500;
+	font-size:14px;
+	line-height: 1.172;
+}
+.mainnav li, .contact-header li{
+	list-style: none;
+}
+
+.mainnav a{
+	color:var(--mainnav);
+	
+}
+.contact-header a{
+	color:#757575;
+}
+.mainnav a:hover,.contact-header a:hover,
+.mainnav a:focus,.contact-header a:focus{
+	color:var(--maincolor);
+}
