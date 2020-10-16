@@ -4,6 +4,7 @@
   --navcolor:#212121;
 
 }
+/*1. Шапка сайта*/
 .logo{
 	color:black;
 	font-size:26px;
@@ -37,3 +38,46 @@
 .mainnav a:focus,.contact-header a:focus{
 	color:var(--maincolor);
 }
+
+/*2.Герой*/
+.hero{
+	background-color: #2F303A; 
+	padding:25px;
+}
+.main-heading{
+	color:#FFFFFF;
+	font-size:44px;
+	font-weight: 900;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	line-height: 1.363;
+	text-align: center;
+	font-family: var(--mainfont);
+}
+.orderbtn{
+	background-color: var(--maincolor);
+	color:white;
+	font-family: var(--mainfont);
+	font-size: 16px;
+	line-height: 1.875;
+	font-weight: 700;
+	text-align: center;
+	display: block;
+	margin:0 auto;
+	letter-spacing: 0.06em;
+	padding:10px;
+}
+.orderbtn:hover,
+.orderbtn:focus{
+	background-color: white;
+	color:var(--maincolor);
+}
+/*.orderbtn a{
+	color:white;
+	text-decoration: none;
+}*/
+
+
+/*.orderbtn a:hover{
+	color:var(--maincolor);
+}*/
