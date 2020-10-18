@@ -1,52 +1,67 @@
 :root {
-  --maincolor:#2196F3;
+  --maincolor: #2196F3;
   --mainfont: 'Roboto', sans-serif;
-  --navcolor:#212121;
+  --bodycolor: #212121;
+
 
 }
-/*1. Шапка сайта*/
-.logo{
-	color:black;
-	font-size:26px;
+
+.logo {
+	color: #000000;
+	font-size: 26px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	text-decoration: none;
 	line-height: 1.173;
 }
-.logo-web{
-	color:var(--maincolor);
+.logo-web {
+	color: var(--maincolor);
 }
-.contact-header a,.mainnav a{
+.contact-header a,
+.mainnav a {
 	text-decoration: none;
 	font-family: var(--mainfont);
 	font-weight: 500;
-	font-size:14px;
+	font-size: 14px;
 	line-height: 1.172;
 }
-.mainnav li, .contact-header li{
+.mainnav li, 
+.contact-header li,
+.features li, 
+.services li,
+.tem li,
+.footer li,
+.contact-footer li,
+.portfolio li {
 	list-style: none;
 }
 
-.mainnav a{
-	color:var(--mainnav);
+.mainnav a {
+	color: var(--bodycolor);
 	
 }
-.contact-header a{
-	color:#757575;
+.contact-header a {
+	color: #757575;
 }
-.mainnav a:hover,.contact-header a:hover,
-.mainnav a:focus,.contact-header a:focus{
-	color:var(--maincolor);
+.mainnav a:hover,
+.contact-header a:hover,
+.contact-footer a:hover,
+.mainnav a:focus,
+.mainnav a:active,
+.contact-header a:focus,
+.contact-footer a:focus,
+.contact-footer a:active,
+.logo:focus {
+	color: var(--maincolor);
 }
 
-/*2.Герой*/
-.hero{
-	background-color: #2F303A; 
-	padding:25px;
+.hero, .footer {
+	background-color: #2f303a; 
+	padding: 25px;
 }
-.main-heading{
-	color:#FFFFFF;
-	font-size:44px;
+.main-heading {
+	color: #ffffff;
+	font-size: 44px;
 	font-weight: 900;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
@@ -54,30 +69,113 @@
 	text-align: center;
 	font-family: var(--mainfont);
 }
-.orderbtn{
+.order-button {
 	background-color: var(--maincolor);
-	color:white;
+	color: #ffffff;
 	font-family: var(--mainfont);
 	font-size: 16px;
 	line-height: 1.875;
 	font-weight: 700;
 	text-align: center;
 	display: block;
-	margin:0 auto;
+	margin: 0 auto;
 	letter-spacing: 0.06em;
-	padding:10px;
+	padding: 10px;
 }
-.orderbtn:hover,
-.orderbtn:focus{
-	background-color: white;
-	color:var(--maincolor);
+.order-button:hover,
+.order-button:focus {
+	background-color: #ffffff;
+	color: var(--maincolor);
 }
-/*.orderbtn a{
-	color:white;
+
+.features-heading {
+	color: var(--bodycolor);
+	font-family: var(--mainfont);
+	font-size: 14px;
+	line-height: 1.142;
+	font-weight: 700;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+.features-item {
+	color:#757575;
+	font-family: var(--mainfont);
+	font-size: 14px;
+	line-height: 1.714;
+	letter-spacing: 0.03em;
+	font-weight: 400;
+
+}
+.service-heading,
+.team-heading {
+	font-family: var(--mainfont);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.166;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--bodycolor);
+}
+.team-item, 
+.team-description, 
+.portfolio-name,
+.portfolio-description {
+	font-family: var(--mainfont);
+	font-size: 16px;
+	line-height: 1.187;
+	letter-spacing: 0.03em;
+}
+.team-item,
+.portfolio-name {
+	color: var(--bodycolor);
+	font-weight: 500;
+}
+.team-description,
+.portfolio-description {
+	color: #757575;
+	font-weight: 400;
+}
+.logo-footer {
+	color: #fff;
+	font-size: 26px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
 	text-decoration: none;
-}*/
+	line-height: 1.173;
+}
+.adress{
+	font-family: var(--mainfont);
+	font-weight: 400;
+	color: #fff;
+	font-style:normal;
+	font-size: 14px;
+	line-height: 1.714;
+	letter-spacing: 0.03em;
+}
+.contact-footer a {
+	text-decoration: none;
+	font-family: var(--mainfont);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.172;
+	color: rgba(255, 255, 255, 0.6);
+	font-style: normal;
 
+}
+.portfolio-category {
+	font-family: var(--mainfont);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.625;
+	letter-spacing: 0.03em;
+	color: var(--bodycolor);
+	text-decoration: none;
+}
 
-/*.orderbtn a:hover{
-	color:var(--maincolor);
-}*/
+.portfolio-category:hover,
+.portfolio-category:active,
+.portfolio-category:focus {
+	background-color: var(--maincolor);
+	color:#fff;
+	padding: 10px;
+}
