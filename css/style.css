@@ -48,7 +48,7 @@
 .mainnav a:active,
 .contact-header a:focus,
 .contact-footer a:focus,
-.contact-footer a:active,
+.contact-footer a:active
  {
 	color: var(--maincolor);
 }
