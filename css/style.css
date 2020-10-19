@@ -184,7 +184,7 @@
 .portfolio-category:focus {
 	background-color: var(--maincolor);
 	color:#fff;
-	padding: 5px;
+
 	
 }
 .portfolio-items a{
